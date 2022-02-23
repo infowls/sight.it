@@ -1,0 +1,81 @@
+.sign-in {
+    background-image: url("../assets/signin.jpg");
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    position: fixed;
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.log-in {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    width: 20%;
+    height: 40px;
+    margin-bottom: 5%;
+    transition-duration: 0.4s;
+
+}
+
+.log-in:hover {
+    background-color: white;
+    color: gray;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input-element {
+    width: 20%;
+    outline: 0;
+    border-width: 0 0 2px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    padding: 10px 5px 10px 10px;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.input-element:focus {
+    background-color: transparent;
+    width: 35%;
+}
+
+.register-link {
+    color: white;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+.register-link:hover {
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+}
+
+.home-button {
+   float: left;
+   margin-left: 5%;
+   margin-top: 2%;
+   background-color: transparent;
+   padding: 0;
+   border: none;
+   background: none;
+}
+
+.home-arrow {
+    width: 7%;
+}
+
+
